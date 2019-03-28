@@ -34,6 +34,7 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
 
+        android:inputType="numberDecimal"
         android:text="1.00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toRightOf="@id/base_currency_symbol"
@@ -54,10 +55,10 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:layout_marginTop="@dimen/choice_separation"
                 android:id="@+id/first_currency_flag"
                 android:layout_width="@dimen/flag_width"
                 android:layout_height="@dimen/flag_height"
+                android:layout_marginTop="@dimen/choice_separation"
                 android:background="@drawable/canada"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -78,6 +79,7 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="@dimen/choice_separation"
+                android:inputType="numberDecimal"
 
                 android:text="1.00"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -110,6 +112,7 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="@dimen/choice_separation"
+                android:inputType="numberDecimal"
                 android:text="1.00"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintLeft_toRightOf="@id/second_currency_symbol"
