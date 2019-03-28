@@ -1,4 +1,3 @@
 <resources>
     <string name="app_name">Currency Converter</string>
-    <string name="starting_flag">@drawable/usa</string>
 </resources>
